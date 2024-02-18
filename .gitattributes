@@ -1,1 +1,2 @@
 *.pmax linguist-language=PMax
+*.bbx linguist-vendored
