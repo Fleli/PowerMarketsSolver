@@ -1,0 +1,23 @@
+// main.pmax
+// Copyright (c) Frederik
+// Created 16.2.2024
+
+macro __fetch_price = 1;
+
+func main() -> int {
+	
+	var __success = __heap_init();
+	
+	var all = __init();
+	
+	var producers = all.f0;
+	
+	var solution = solve(all.f0, all.f1);
+	
+	if __fetch_price {
+		return solution.f0;
+	} else {
+		return solution.f1;
+	}
+	
+}
