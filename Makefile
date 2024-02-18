@@ -1,5 +1,5 @@
 
-LIBRARYPATHS = "_libraries"
+LIBRARYPATHS = _libraries
 ASMFILE = "out"
 MACHINEFILE = "out.bbx"
 PROFILECOMPILER = #--profile
